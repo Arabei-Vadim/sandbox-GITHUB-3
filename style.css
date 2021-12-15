@@ -1,0 +1,72 @@
+body {
+    margin: o;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: blueviolet;
+}
+/*auth*/
+.auth {
+    width: 260px;
+    padding: 20px;
+    margin: 20px auto ;
+    background-color: cornsilk;
+}
+.auth-tittle {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.input {
+    display: block;
+    width: 238px;
+    padding: 8px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 15px;
+    background-color: white;
+}
+.input:focus {
+    outline: 0;
+    border-color: rgb(152, 47, 201);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.select {
+    display: block;
+    width: 260px;
+    padding: 8px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 15px;
+    height: 35px ;
+    background-color: white;
+}
+.select:focus {
+    outline: 0;
+    border-color: rgb(152, 47, 201);
+}
+.btn {
+    display: block;
+    width: 260px;
+
+    font-family: inherit;
+    font-size: 15px;
+    border: 0;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+.btn:focus {
+    outline: 0;
+}
+.btn:focus,
+.btn:hover {
+    background-color: rgb(4, 117, 4);
+    cursor: pointer;
+}
+.btn:active {
+    background-color: rgb(2, 105, 2);
+}
